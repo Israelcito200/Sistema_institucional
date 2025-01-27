@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/img/d11.png" type="image/png">
+    <link rel="icon" href="/img/lol.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <title>CUERPO DE AGENTES DE CONTROL</title>
+    <title>INSTITUCIÓN</title>
     <style>
         /* Reset styles */
         * {
@@ -29,7 +29,7 @@
             position: fixed;
             left: -250px;
             top: 0;
-            background-color: #112a4a;
+            background-color: black;
             color: #fff;
             transition: 0.3s;
             padding-top: 30px;
@@ -179,10 +179,13 @@
 <!-- Sidebar -->
 <div class="sidebar" id="sidebar">
     <div class="logo">
-        <img src="{{ asset('img/d11.png') }}" alt="Logo Institución">
+        <img src="{{ asset('img/lol.png') }}" alt="Logo Institución">
     </div>
     <a href="{{ route('cursos.create') }}">Crear Curso</a>
     <a href="{{ route('estudiantes.create') }}">Matricular Estudiante</a>
+    <a >Solicitudes</a>
+    <a >Consultas</a>
+    <a >Calendario Académico</a>
 </div>
 
 <!-- Botón para abrir/cerrar el Sidebar -->
@@ -192,7 +195,7 @@
 <div class="main-content" id="main-content">
     <br>
     <center>
-    <h1 style="font-family: Roboto, sans-serif;">      CURSOS - CUERPO DE AGENTES DE CONTROL</h1>
+    <h1 style="font-family: Roboto, sans-serif;">CURSOS - PRIMER PERIODO 2025</h1>
    
     <a href="{{ route('cursos.create') }}" class="create-btn">Crear Curso</a>
     </center>
